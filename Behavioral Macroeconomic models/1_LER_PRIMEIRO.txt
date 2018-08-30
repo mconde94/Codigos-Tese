@@ -1,0 +1,25 @@
+Dúvidas/Sugestões:
+A minha principal dúvida será na maneira como o agente escolhe o seu melhor vizinho, daí ter experimentado com tantas variações do DeGrauwe
+Não será necessário arranjar um servidor poderoso, visto que tenho à minha disposição uma sala do df com vários computadores 
+Para cada país pôr um tipo de topologia nas sub-redes e ver os efeitos na política monetária.
+Não é fácil arranjar um valor de gamma para as interações de grauwe que replique uma gaussiana com abas.
+Estrutura da tese?
+c3? - seguir uma convenção do artigo do paul de grauwe os do RBC = 0
+
+Indicações:
+	1 - Os ficheiros que começam por teste + interação são o exemplo. Não usam a política monetária ótima.
+	2 - Os ficheros que começam por interação + par são os códigos que irão ser usados para achar a política monetária ótima
+	3 - Os códigos quem estão em maísculas são só a definição de funções e de objetos
+	4 - Tenho vários ficheiros .ods e .csv com as populações para recriar os países em questão. Fiz redes proporcionais aos estados do país em questão (ex: California tem 40 milhões de pesssoas, cada 		agente representa meio milhão de pesssoas, logo a California tem 80 agentes). E todos estes tão ligados ao banco central de duas topologias distintas: uma o banco central fala com todos os agentes do 	dito país (AmericaC,EuropeC,etc), noutra o banco central só fala com um agente priveligiado de cada estado(AmericaS,etc).
+
+Conclusões:
+	1 - Cheguei à conclusão de quando as redes são pouco ligadas, isto é, quando não há reciprocidade ou há poucas interações tendo em conta o número total de agentes, as flutuações de opiniões são menores.
+	2 - Nas iterações tipo DeGrauwe é difícil replicar o comportamento de gaussianas com bandas nas bordas, no entanto, com os atuais valores de Gamma consegue-se um comportamento semelhante.
+
+Alterações:
+Fazer um surface plot nos códigos para paralelizar com o desvio padrão da inflação. Sobrepor os dois.
+Adicionar médias e desvios padrões do animal spirits
+Comparar com os ouput gaps e ver se estão relacionados com o animal spirits.
+Aplicar médias móveis.
+Mexer nos gammas e outras constantes para que os animal spirtis sejam mais controlados.
+Quantas expectativas diferentes existem numa rede a cada instante.
