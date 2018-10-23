@@ -1,2 +1,3 @@
 # Codigos-Tese
 Codes developed as part of my master thesis. The purpose of the thesis is to understand how the type of Ising model can be used to replicate human behaviour.   The output gap is understood as the variation of the Gross Domestic Product. The way people perceive its growth (expectations) influences the economy, which then influences the monetary policy of a central bank. A variation of the Ising model will be used to replicate the creation and diffusion of expectations of the output gap on a model society. The final objective is to understand how accurate this class of models can simulate the optimal monetary policy of a central bank.
+Most of the codes were written in Python but others in MATLAB.
